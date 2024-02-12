@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: 'poppins', sans-serif;
+   /* color: white;*/
+}
+
+
+body{
+    height: 100%;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(Easybook-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 200px;
+    background-image: url(flight-logo.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    padding-top: 0;
+}
+
+.nav-guide{
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-guide ul a{
+    text-decoration: none;
+    margin-right: 13px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-guide ul{
+    margin-top: 14px
+}
+
+.nav-guide ul a:active{
+    color: #cb1c1c;
+}
+
+.nav-guide .last-logo{
+    height: 40px;
+    width: 118px;
+    color: white;
+    background-color: #cb1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cb1c1c;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    outline: none;
+    transition: background-color 0.3s ease-in;
+}
+
+.nav-guide .last-logo:active{
+    background-color: rgba(9,0,77,0.65);
+    font-size: 15px;
+    border: none;
+}
+
+/**MAIN-PANNEL**/
+
+.front-sec{
+    height: 800px;
+    width: 440px;
+    position: relative;
+    top: 160px;
+    left: 78px;
+    color: white;
+}
+
+.front-sec p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
+    font-style: "poppins";
+    width: 380px;
+}
+
+.search-bar{
+    margin-top: 17px;
+    display: flex;
+    width: 400px;
+    height: 33px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 6px;
+}
+
+.input-bar{
+    width: 80%;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.search-btn{
+    height: 34px;
+    width: 23%;
+    background-color: #cb1c1c;
+    color: white;
+    border: 2px solid #cb1c1c;
+    border-radius: 4px;
+}
+
+.search-btn:active{
+    background-color: rgba(9,0,77,0.65);
+    font-size: 15px;
+    border: none;
+}
+
+/**FOOTER**/
+
+/*ABOUT SECTION*/
+
+.about-pannel{
+    height: 430px;
+    background-color: #E0E0E0;
+    /*position: relative;
+    top: 170px;*/
+    padding: 62px 0 0 115px;
+}
+
+.about-site{
+    height: 78%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 100;
+}
+
+.qna{
+    height: 100px;
+    width: 45%;
+}
+
+.about-site p{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.about-site h3{
+    font-size: 15px;
+}
+
+.third{
+    margin-top: 45px;
+}
+
+/*LAST PANNEL*/
+
+.last-pan{
+    height: 170px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.social-logo{
+    height: 80px;
+    width: 130px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+
+.copywrite{
+    color: white;
+    padding-right: 90px;   
+}
+
+.cont-tag a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.cont-tag p{
+    color: white;
+    font-size: 14px;
+}
+
+.cont-tag{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
